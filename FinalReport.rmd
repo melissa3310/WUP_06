@@ -10,6 +10,8 @@ require(tidyverse)
 require(tigerstats)
 require(knitr)
 GSS <-read.csv(file="GSScsv.csv",header=TRUE)
+GSS$CAPPUN<-as.factor(GSS$CAPPUN)
+GSS$RACE<-as.factor(GSS$RACE)
 ```
 
 # Introduction
