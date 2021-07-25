@@ -59,6 +59,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+For the first and second one the numbers for the white race is more higher and fort the first one the black is higher tha nthe other. so in the second one the other is higher than the second one.  
 
 ## Inferential Results
 
