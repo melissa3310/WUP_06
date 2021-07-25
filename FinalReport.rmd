@@ -47,6 +47,8 @@ barchartGC(~race + cappun,data=GSS, type="percent")
 
 ```
 
+Based on what I see in this graph is that 2 3rds are in favor of capital punishment while 1 3rd are against it. Also what I can see here is that the White people have a big gap and the black and others have a smaller gap to where they have to share. What I think is that the information that is given in this graph isnt fair.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -131,6 +133,10 @@ fisherXY = function(x, y, confL = 0, printAll=FALSE){
         }
 }
 
+```
+
+```{r}
+fisherXY(GSS$cappun,GSS$race)
 ```
 
 # Discussion and Conclusion
